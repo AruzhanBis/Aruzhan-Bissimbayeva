@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body {
     font-family: "Lato", sans-serif;
@@ -48,7 +49,14 @@ body {
       float: none;
     }
   }
-.tab {
+  
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 90px;
+}
+  .tab {
     float: left;
     border: 1px solid #44749c;
     border-right: 30px solid #44749c;
@@ -77,17 +85,16 @@ body {
    
   .tabcontent {
     float: left;
-    padding: 30px 130px;
-    
-    width: 50%;
+    padding: 80px 130px;
+    width: 80%;
     border-left: none;
     height: 900px;
     text-align: center;
-    background-color: #e8ecfc;
+    background-color: white;
   }
 
   .input{
-    font-size: 1.45em;
+    font-size: 2.45em;
     font-weight: 700;
     color: #44749c;
     background-color:inherit;
@@ -103,5 +110,4 @@ body {
   height: 300px;
   
 }
-
 
